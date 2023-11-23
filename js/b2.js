@@ -18,14 +18,14 @@ if(x>0&&n>0){
 }
 
 }
-function tinhTong(n,x){
+function tinhTong(x,n){
     var tich=1;
     var tong=0;
     for(var i=1;i<=n;i++){
 
         tich*=x;
         tong+=tich;
-       
+        console.log(tich);
        }
     return tong;
 }
